@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+import '@/app/ui/global.css'
+import {interFont} from '@/app/ui/fonts'
+
+>>>>>>> master
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +11,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+<<<<<<< HEAD
       <body>{children}</body>
+=======
+      <body className={`${interFont.className} antialised`}>{children}</body>
+>>>>>>> master
     </html>
   );
 }
