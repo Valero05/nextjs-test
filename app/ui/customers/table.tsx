@@ -86,11 +86,11 @@ export default async function CustomersTable({
                       <td className="whitespace-nowrap bg-white py-5 pl-4 pr-3 text-sm text-black group-first-of-type:rounded-md group-last-of-type:rounded-md sm:pl-6">
                         <div className="flex items-center gap-3">
                           <Image
-                            alt={`${customer.name}'s profile picture`}
-                            src={customer.image_url}
-                            className="rounded-full"         
-                            width={28}
-                            height={28}
+                              alt={`${customer.name}'s profile picture`}
+                              src={customer.image_url}
+                              className="rounded-full"
+                              width={28}
+                              height={28}
                           />
                           <p>{customer.name}</p>
                         </div>
