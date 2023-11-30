@@ -70,6 +70,7 @@ export type FormattedCustomersTable = {
   name: string;
   email: string;
   image_url: string;
+  alt:string;
   total_invoices: number;
   total_pending: string;
   total_paid: string;
